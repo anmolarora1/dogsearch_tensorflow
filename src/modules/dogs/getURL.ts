@@ -1,0 +1,1 @@
+export const getURL = (category: string, count = 5) =>  `https://dog.ceo/api/breed/${category}/images/random/${count}/alt`
